@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket around the moon with your BFFs</title>
+    <link rel="stylesheet" href="trail.css">
+</head>
+<body>
+    <div class="container">
+        <div class="space-scene">
+            <img src="/space-man-1[1].png" alt="Astronaut 1" class="astronaut astronaut1">
+            <img src="/space-man-2[1].png" alt="Astronaut 2" class="astronaut astronaut2">
+        </div>
+        <div class="form-container">
+            <h1>Rocket around the moon with your BFFs</h1>
+            <form>
+                <div class="form-group">
+                    <label for="country">Departure Country</label>
+                    <select id="country" name="country">
+                        <option value="India">India</option>
+                        <option value="India">USA</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="travelers">No. of Space Travellers</label>
+                    <input type="number" id="travelers" name="travelers" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your email</label>
+                    <input type="email" id="email" name="email" value="ilovespace@gmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label>Do you wanna rent a space suit?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="rent-yes" name="rent-suit" value="yes">
+                        <label for="rent-yes">Yes, Please</label>
+                        <input type="radio" id="rent-no" name="rent-suit" value="no">
+                        <label for="rent-no">No, I have my own</label>
+                    </div>
+                </div>
+                <button type="submit">TAKE US TO SPACE</button>
+            </form>
+        </div>
+    </div></body>
+</html>
